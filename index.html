@@ -11,7 +11,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
-
+<script>
+    (function () {
+        if ('') {
+            if (prompt('请输入文章密码') !== '') {
+                alert('密码错误，请与博主联系，询问密码！');
+                if (history.length === 2) {
+                    location.replace("https://fengqing-dong.github.io/"); // 这里替换成你的首页
+                } else {
+                    history.back();
+                }
+            }
+        }
+    })();
+</script>
 
 
 
@@ -382,7 +395,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  73 
                 </span>
               
 
@@ -554,7 +567,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  586 
                 </span>
               
 
@@ -731,7 +744,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  27 
                 </span>
               
 
@@ -880,7 +893,7 @@ Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台�
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  629 
                 </span>
               
 
@@ -1036,7 +1049,7 @@ Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台�
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  
+                  0 
                 </span>
               
 
@@ -1227,7 +1240,7 @@ Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台�
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count"></span>
+    <span title="Site words total count">1.3k</span>
   
 </div>
 
