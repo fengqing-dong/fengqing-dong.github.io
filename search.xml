@@ -3,7 +3,15 @@
   <entry>
     <title><![CDATA[python笔记]]></title>
     <url>%2F2019%2F01%2F31%2Fpython%E7%AC%94%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[[对于嵌套列表中数据处理] []123456789def visit(data): for elem in data: if isinstance(elem, tuple) or isinstance(elem, list): yield from visit(elem) else: yield elem for e in visit([1, 2, (3, 4), 5]): print(e)]]></content>
+    <content type="text"><![CDATA[1.对嵌套列表中数据处理[对嵌套列表中数据处理]123456789def visit(data): for elem in data: if isinstance(elem, tuple) or isinstance(elem, list): yield from visit(elem) else: yield elem for e in visit([1, 2, (3, 4), 5]): print(e)]]></content>
+      <categories>
+        <category>python笔记</category>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[page]]></title>

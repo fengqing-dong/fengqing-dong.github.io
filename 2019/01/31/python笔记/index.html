@@ -81,7 +81,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="笔记,Python,">
 
 
 
@@ -92,17 +92,18 @@
 
 
 
-<meta name="description" content="[对于嵌套列表中数据处理] []123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
+<meta name="description" content="1.对嵌套列表中数据处理[对嵌套列表中数据处理]123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
+<meta name="keywords" content="笔记,Python">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python笔记">
 <meta property="og:url" content="http://yoursite.com/2019/01/31/python笔记/index.html">
 <meta property="og:site_name" content="fengqing">
-<meta property="og:description" content="[对于嵌套列表中数据处理] []123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
+<meta property="og:description" content="1.对嵌套列表中数据处理[对嵌套列表中数据处理]123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-31T08:18:06.562Z">
+<meta property="og:updated_time" content="2019-01-31T08:36:49.812Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python笔记">
-<meta name="twitter:description" content="[对于嵌套列表中数据处理] []123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
+<meta name="twitter:description" content="1.对嵌套列表中数据处理[对嵌套列表中数据处理]123456789def visit(data):    for elem in data:        if isinstance(elem, tuple) or isinstance(elem, list):            yield from visit(elem)        else:            yield elem">
 
 
 
@@ -368,6 +369,39 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/python笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">python笔记</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/python笔记/笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -389,7 +423,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  44 
+                  54 
                 </span>
               
 
@@ -414,7 +448,8 @@
       
 
       
-        <figure class="highlight python"><figcaption><span>[对于嵌套列表中数据处理] []</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">visit</span><span class="params">(data)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> elem <span class="keyword">in</span> data:</span><br><span class="line">        <span class="keyword">if</span> isinstance(elem, tuple) <span class="keyword">or</span> isinstance(elem, list):</span><br><span class="line">            <span class="keyword">yield</span> <span class="keyword">from</span> visit(elem)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">yield</span> elem</span><br><span class="line">            </span><br><span class="line"><span class="keyword">for</span> e <span class="keyword">in</span> visit([<span class="number">1</span>, <span class="number">2</span>, (<span class="number">3</span>, <span class="number">4</span>), <span class="number">5</span>]):</span><br><span class="line">    print(e) </span><br></pre></td></tr></table></figure>
+        <h1 id="1-对嵌套列表中数据处理"><a href="#1-对嵌套列表中数据处理" class="headerlink" title="1.对嵌套列表中数据处理"></a>1.对嵌套列表中数据处理</h1><figure class="highlight python"><figcaption><span>[对嵌套列表中数据处理]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">visit</span><span class="params">(data)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> elem <span class="keyword">in</span> data:</span><br><span class="line">        <span class="keyword">if</span> isinstance(elem, tuple) <span class="keyword">or</span> isinstance(elem, list):</span><br><span class="line">            <span class="keyword">yield</span> <span class="keyword">from</span> visit(elem)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">yield</span> elem</span><br><span class="line">            </span><br><span class="line"><span class="keyword">for</span> e <span class="keyword">in</span> visit([<span class="number">1</span>, <span class="number">2</span>, (<span class="number">3</span>, <span class="number">4</span>), <span class="number">5</span>]):</span><br><span class="line">    print(e) </span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -428,6 +463,14 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/笔记/" rel="tag"><i class="fa fa-tag"></i> 笔记</a>
+          
+            <a href="/tags/Python/" rel="tag"><i class="fa fa-tag"></i> Python</a>
+          
+        </div>
       
 
       
@@ -498,8 +541,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -527,7 +579,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -538,7 +590,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -561,6 +613,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-对嵌套列表中数据处理"><span class="nav-text">1.对嵌套列表中数据处理</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
