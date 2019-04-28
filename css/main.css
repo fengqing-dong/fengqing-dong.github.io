@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffe95b;
+  background: #6e79eb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3186,14 +3186,6 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
-::selection {
-  background: #00c4b6;
-  color: #f7f7f7;
-}
-::-moz-selection {
-  background: #00c4b6;
-  color: #f7f7f7;
-}
 .post-body p a {
   color: #0593d3;
   border-bottom: none;
@@ -3203,6 +3195,54 @@ span#inline-purple {
   color: #fc6423;
   border-bottom: none;
   border-bottom: 1px solid #fc6423;
+}
+.highlight {
+  border-radius: 5px;
+}
+pre {
+  border-radius: 5px;
+}
+::selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+::-moz-selection {
+  background: #00c4b6;
+  color: #f7f7f7;
+}
+.headband {
+  height: 3px;
+  background: #49b1f5;
+}
+.site-meta {
+  padding: 20px 0;
+  color: #fff;
+  background: #49b1f5;
+}
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #49b1f5;
+  background: #fff;
+  border: 2px solid #49b1f5;
+  text-decoration: none;
+  border-radius: 2px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  line-height: 2;
+}
+.btn:hover {
+  border-color: #49b1f5;
+  color: #fff;
+  background: #49b1f5;
 }
 .posts-expand .post-title-link::before {
   content: "";
