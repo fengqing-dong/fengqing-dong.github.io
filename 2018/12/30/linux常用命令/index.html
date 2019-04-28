@@ -92,17 +92,17 @@
 
 
 
-<meta name="description" content="wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename   vim安装插件以vim-indent-guides为例   从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行` Plugin ‘n">
+<meta name="description" content="1. wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename 2. vim安装插件以vim-indent-guides为例 从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行Plugin &amp;#3">
 <meta property="og:type" content="article">
 <meta property="og:title" content="linux常用命令">
 <meta property="og:url" content="http://yoursite.com/2018/12/30/linux常用命令/index.html">
 <meta property="og:site_name" content="fengqing">
-<meta property="og:description" content="wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename   vim安装插件以vim-indent-guides为例   从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行` Plugin ‘n">
+<meta property="og:description" content="1. wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename 2. vim安装插件以vim-indent-guides为例 从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行Plugin &amp;#3">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-11T08:26:35.580Z">
+<meta property="og:updated_time" content="2019-04-11T10:14:11.469Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="linux常用命令">
-<meta name="twitter:description" content="wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename   vim安装插件以vim-indent-guides为例   从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行` Plugin ‘n">
+<meta name="twitter:description" content="1. wc统计文件中行数、字数、字节数，对于参数如下：wc -l filenamewc -w filenamewc -c filename 2. vim安装插件以vim-indent-guides为例 从github下载文件 git clone https://github.com/nathanaelkane/vim-indent-guides.git 修改.vimrc。添加行Plugin &amp;#3">
 
 
 
@@ -389,7 +389,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  459 
+                  746 
                 </span>
               
 
@@ -414,37 +414,49 @@
       
 
       
-        <ol>
-<li><code>wc</code>统计文件中行数、字数、字节数，对于参数如下：<br><code>wc -l filename</code><br><code>wc -w filename</code><br><code>wc -c filename</code></li>
-</ol>
-<ol start="2">
-<li>vim安装插件<br>以<code>vim-indent-guides</code>为例</li>
-</ol>
-<ul>
+        <h1 id="1-wc统计文件中行数、字数、字节数，对于参数如下："><a href="#1-wc统计文件中行数、字数、字节数，对于参数如下：" class="headerlink" title="1. wc统计文件中行数、字数、字节数，对于参数如下："></a>1. <code>wc</code>统计文件中行数、字数、字节数，对于参数如下：</h1><p><code>wc -l filename</code><br><code>wc -w filename</code><br><code>wc -c filename</code></p>
+<h1 id="2-vim安装插件以vim-indent-guides为例"><a href="#2-vim安装插件以vim-indent-guides为例" class="headerlink" title="2. vim安装插件以vim-indent-guides为例"></a>2. vim安装插件<br>以<code>vim-indent-guides</code>为例</h1><ul>
 <li>从github下载文件 <code>git clone https://github.com/nathanaelkane/vim-indent-guides.git</code></li>
-<li>修改.vimrc。添加行` Plugin ‘nathanaelkane/vim-indent-guides’</li>
-<li>修改配置文件。 添加以下代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let g:indent_guides_enable_on_vim_startup = 1 #添加行，vim启动时启用</span><br><span class="line">let g:indent_guides_start_level = 1           #添加行，开始显示对齐线的缩进级别</span><br><span class="line">let g:indent_guides_guide_size = 1            #添加行，对齐线的宽度，（1字符）</span><br><span class="line">let g:indent_guides_tab_guides = 0            #添加行，对tab对齐的禁用</span><br></pre></td></tr></table></figure>
-</li>
+<li>修改.vimrc。添加行<code>Plugin &#39;nathanaelkane/vim-indent-guides&#39;</code> </li>
+<li>修改配置文件。 添加以下代码</li>
 </ul>
-<ol start="3">
-<li>vim设置代码折叠<br> 可用选项 ‘foldmethod’ 来设定折叠方式：set fdm=<strong>*</strong>。<br>有 6 种方法来选定折叠：<br>manual           手工定义折叠<br>indent             更多的缩进表示更高级别的折叠<br>expr                用表达式来定义折叠<br>syntax             用语法高亮来定义折叠<br>diff                  对没有更改的文本进行折叠<br>marker            对文中的标志折叠</li>
-</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let g:indent_guides_enable_on_vim_startup = 1 #添加行，vim启动时启用</span><br><span class="line">let g:indent_guides_start_level = 1           #添加行，开始显示对齐线的缩进级别</span><br><span class="line">let g:indent_guides_guide_size = 1            #添加行，对齐线的宽度，（1字符）</span><br><span class="line">let g:indent_guides_tab_guides = 0            #添加行，对tab对齐的禁用</span><br></pre></td></tr></table></figure>
+<h1 id="3-vim设置代码折叠"><a href="#3-vim设置代码折叠" class="headerlink" title="3. vim设置代码折叠"></a>3. vim设置代码折叠</h1><pre><code>可用选项`foldmethod`来设定折叠方式：`set fdm=*****`。
+</code></pre><p>有 6 种方法来选定折叠：<br>manual           手工定义折叠<br>indent             更多的缩进表示更高级别的折叠<br>expr                用表达式来定义折叠<br>syntax             用语法高亮来定义折叠<br>diff                  对没有更改的文本进行折叠<br>marker            对文中的标志折叠</p>
 <p>如在，在<code>.vimrc</code>文件中添加<code>set fdm=indent</code>.</p>
 <p>折叠命令：<br>za 折叠<br>zc 折叠<br>zo 展开折叠<br>zO 展开范围内全部折叠<br>→ 展开折叠</p>
-<ol start="4">
-<li>vim快速查找</li>
-</ol>
-<ul>
+<h1 id="4-vim快速查找"><a href="#4-vim快速查找" class="headerlink" title="4. vim快速查找"></a>4. vim快速查找</h1><ul>
 <li>方法1：最快的方式是让光标停留在想要查找的单词的任意一个字母上面， 然后输入Shift + *  ，即可快速选中该单词，并且可以通过 n  或  N 进行上一个或下一个的匹配。</li>
 <li>方法2： 输入“：/word”，并且可以通过 n  或  N 进行上一个或下一个的匹配。</li>
 </ul>
-<ol start="5">
-<li>配置自定义命令<br> 对于用户，修改~/.bashrc文件<br> 对于所有用户，修改/etc/bashrc文件<br><code>alias  new_order=&quot;替换的命令&quot;</code></li>
-</ol>
-<ol start="6">
-<li>git 使用<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add &quot;filr or dir&quot;</span><br><span class="line">git commit -m &quot;description&quot;</span><br><span class="line">git remote add origin &quot;https://git@github.com/username/repository_name.git</span><br><span class="line"># 如果报错 运行git remote rm origin后，重新运行上句命令</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<h1 id="5-配置自定义命令"><a href="#5-配置自定义命令" class="headerlink" title="5. 配置自定义命令"></a>5. 配置自定义命令</h1><pre><code>对于用户，修改~/.bashrc文件
+对于所有用户，修改/etc/bashrc文件
+</code></pre><p><code>alias  new_order=&quot;替换的命令&quot;</code></p>
+<h1 id="6-git-使用"><a href="#6-git-使用" class="headerlink" title="6. git 使用"></a>6. git 使用</h1> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add &quot;filr or dir&quot;</span><br><span class="line">git commit -m &quot;description&quot;</span><br><span class="line">git remote add origin &quot;https://github.com/username/repository_name.git</span><br><span class="line"># 如果报错 运行git remote rm origin后，重新运行上句命令</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<h1 id="7-查看系统"><a href="#7-查看系统" class="headerlink" title="7. 查看系统"></a>7. 查看系统</h1><ul>
+<li>df -h # 查看系统存储信息</li>
+<li>du -sh * #查看当前文件夹下各个子文件(夹)的大小</li>
+<li>du -lh –max-depth=1 #查看当前文件夹下各个子文件夹的大小</li>
+</ul>
+<h1 id="8-文件查找"><a href="#8-文件查找" class="headerlink" title="8. 文件查找"></a>8. 文件查找</h1><ul>
+<li>grep -n “^&gt;chr[0-9XY]$” filename # 查找字符并显示所在行号</li>
+<li>sed -n ‘100,200p’ hg38.fa # 查看文件的100-200行内容</li>
+<li>grep ‘^chr[0-9XY]{1,2}‘$’\t’’+‘ #grep查找Tab, 需要将\t用’$’\t’’+代替，另外{}需要进行转义</li>
+<li>grep ‘^chr[0-9XY]{1,2}‘ 与 grep -E ‘^chr[0-9XY]{1,2}’意义一致，-E表示正则模式</li>
+<li><p>grep “<em>“ -v # 显示不包含“</em>“的行</p>
 </li>
-</ol>
+<li><p>find /home -name test.py   #在home目录下查找test.py</p>
+</li>
+<li>locate test.py  #所有目录下查找test.py</li>
+</ul>
+<h1 id="9-修改linux终端命令行各字体颜色"><a href="#9-修改linux终端命令行各字体颜色" class="headerlink" title="9 修改linux终端命令行各字体颜色"></a>9 修改linux终端命令行各字体颜色</h1><p>参考链接：<a href="https://www.cnblogs.com/Q--T/p/5394993.html" target="_blank" rel="noopener">PS1应用之——修改linux终端命令行各字体颜色</a></p>
+<ul>
+<li>PS1=”[\e[37;40m][[\e[32;40m]\u[\e[37;40m]@\h [\e[36;40m]\w[\e[0m]]\$ “   #临时生效</li>
+<li>echo ‘export PS1=”[\e[37;40m][[\e[32;40m]\u[\e[37;40m]@\h [\e[36;40m]\w[\e[0m]]\$ “‘&gt;&gt; ~/.bashrc  #永久生效</li>
+</ul>
+<h1 id="文件分割"><a href="#文件分割" class="headerlink" title="文件分割"></a>文件分割</h1><ul>
+<li>split –lines=1048576 –numeric-suffixes –suffix-length=2 SRR1039510_2.fasterq temp</li>
+</ul>
 
       
     </div>
@@ -469,18 +481,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/12/13/Hexo使用说明/" rel="next" title="Hexo搭建个人博客设置说明(一)">
-                <i class="fa fa-chevron-left"></i> Hexo搭建个人博客设置说明(一)
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/01/31/page/" rel="prev" title="page">
-                page <i class="fa fa-chevron-right"></i>
+              <a href="/2019/01/31/读书/python笔记2/" rel="prev" title="python笔记2">
+                python笔记2 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -533,8 +541,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -551,7 +568,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -562,7 +579,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -573,7 +590,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -596,6 +613,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-wc统计文件中行数、字数、字节数，对于参数如下："><span class="nav-text">1. wc统计文件中行数、字数、字节数，对于参数如下：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-vim安装插件以vim-indent-guides为例"><span class="nav-text">2. vim安装插件以vim-indent-guides为例</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-vim设置代码折叠"><span class="nav-text">3. vim设置代码折叠</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-vim快速查找"><span class="nav-text">4. vim快速查找</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-配置自定义命令"><span class="nav-text">5. 配置自定义命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-git-使用"><span class="nav-text">6. git 使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-查看系统"><span class="nav-text">7. 查看系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-文件查找"><span class="nav-text">8. 文件查找</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-修改linux终端命令行各字体颜色"><span class="nav-text">9 修改linux终端命令行各字体颜色</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文件分割"><span class="nav-text">文件分割</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -624,7 +657,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">1.7k</span>
+    <span title="Site words total count">4.7k</span>
   
 </div>
 
